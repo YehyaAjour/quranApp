@@ -9,7 +9,6 @@ import 'package:quranapp/view_model/AppStates/state.dart';
 import 'package:quranapp/view/component/component.dart';
 import 'package:quranapp/view_model/AppCupit/cubit.dart';
 
-
 class GroupsScreen extends StatelessWidget {
   var nameController = TextEditingController();
 
@@ -127,16 +126,17 @@ class GroupsScreen extends StatelessWidget {
                                 SizedBox(
                                   width: 10,
                                 ),
-                               SizedBox(
-
-                                 child: TextButton(
-
-                                   onPressed: (){}, child: Text('Assign member'),
-
-                                 ),
-                                 width: 100,
-                                 height: 50,
-                               )
+                                SizedBox(
+                                  child: TextButton(
+                                    onPressed: () {},
+                                    child: Text(
+                                      'Assign member',
+                                      style: TextStyle(fontSize: 12),
+                                    ),
+                                  ),
+                                  width: 70,
+                                  height: 50,
+                                )
                               ],
                             ),
                             SizedBox(
